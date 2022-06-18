@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://35.88.101.251:6060/</sonar.host.url>
-		<sonar.login>Lanre</sonar.login>
-		<sonar.password>Petroleum1.</sonar.password>
+		<sonar.host.url>http://34.209.185.66:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Acada Learning Releases Nexus Repository</name>
-	      <url>http://54.149.146.39:6060/repository/Sobeys-Release/</url>
+	      <url>http://18.237.199.231:8081/repository/Sobeys-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Acada Learning Snapshot Nexus Repository</name>
-	      <url>http://54.149.146.39:6060/repository/Sobeys-snapshot/</url>
+	      <url>http://18.237.199.231:8081/repository/Sobeys-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
